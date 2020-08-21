@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+header {
+    background-color: rgb(209, 12, 12);
+    
+}
+.names {
+    display: flex;
+    height: 50px;
+    padding-top: 30px;
+    margin-left: 10%;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+.names a {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 5px 19px 7px 19px;
+    
+}
+.names a:hover {
+    background-color: rgb(148, 6, 13);
+}
+.more {
+    width: 150px;
+}
+.more a:hover {
+    background-color: rgb(117, 31, 31);
+}
+.more a {
+    background-color:rgb(197, 14, 14);
+    border-radius: 10%;
+    padding: 5px 19px 7px 19px;
+    
+}
+input {
+    width: 270px;
+    height: 40px;
+    border-radius: 5%;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid white;
+}
