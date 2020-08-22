@@ -1,7 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 ul {
     list-style-type: none;
@@ -49,3 +52,155 @@ input {
     font-weight: 700;
     border: 1px solid white;
 }
+.containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.main {
+   padding: 50px; 
+   color: #ffffff;
+}
+.main h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.main img:hover {
+    transform: scale(1.1);
+}
+.author {
+    padding: 20px;
+}
+.hash {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 5px;
+}
+.fas {
+    padding-top: 200px;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.main:hover {
+    cursor: pointer;
+}
+.container1 {
+    background-color: rgb(243, 18, 18);
+}
+.container2 {
+    background-color: rgb(185, 46, 46);
+}
+.container3 {
+    background-color: rgb(156, 45, 45);
+}
+.container4 {
+    background-color: rgb(209, 69, 69);
+   
+}
+.props {
+    display: flex;
+    height: 350px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 0;
+    cursor: pointer;
+    background-color: rgb(233, 229, 229);
+    position: relative;
+    gap: 10px;
+}
+
+.words {
+    padding-right: 0;
+   
+}
+.words:hover {
+    background-color: #ffffff;
+    transform: scale(1.08);
+}
+.words i {
+    border-radius: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 21px;
+
+}
+.words i:hover {
+    background-color: blue;
+}
+.words h1 {
+    text-decoration: underline;
+    padding-bottom: 25px;
+}
+.words h1:hover {
+    color: red;
+}
+.words p {
+    line-height: 1.8;
+}
+.members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    padding-left: 50px;
+    line-height: 1.8;
+    cursor: pointer;
+    background-color: rgb(233, 229, 229);
+}
+.cat {
+    background-color: red;
+    width: calc(100% + 100px);
+    border-radius: 3%;
+}
+.cat img{
+    padding-left: 270px;
+    padding-top: 60px;
+}
+.cat h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.cat a {
+    color: #ffffff;
+    
+}
+.feat a {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: blue;
+    background-color: #ffffff;
+}
+.cat p {
+    text-align: center;
+    font-size: 20px;
+}
+.cat li {
+    text-align: center;
+    font-size: 20px;
+}
+
+.explore li {
+    color: #ffffff;
+    font-size: 12px;
+}
+.lessons {
+    padding-left: 150px;
+    padding-right: 60px;
+}
+.lessons h1 {
+    text-decoration: underline;
+}
+.lessons h1:hover {
+    color: red;
+}
+.lessons:hover {
+    background-color: #ffffff;
+    transform: scale(1.04);
+}
+
