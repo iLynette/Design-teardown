@@ -66,6 +66,10 @@ input {
     font-weight: 700;
     font-size: 35px;
 }
+.main img {
+    border-radius: 10%;
+    border: 6px solid red;
+}
 .main img:hover {
     transform: scale(1.1);
 }
@@ -89,7 +93,7 @@ sup {
     cursor: pointer;
 }
 .container1 {
-    background-color: rgb(243, 18, 18);
+    background-color: rgb(211, 25, 25);
 }
 .container2 {
     background-color: rgb(185, 46, 46);
@@ -266,7 +270,13 @@ sup {
     font-family: serif;
     font-weight: lighter;
 }
-
+.arts p {
+    color: rgb(85, 73, 73);
+    cursor: pointer;
+}
+.arts p:hover {
+    color: red;
+}
 .heavy-divider {
     margin-left: 41%;
     margin-right: 41%;
@@ -303,4 +313,103 @@ sup {
 .shady h1 a {
     color: white;
     font-size: 2.3em;
+}
+
+.coop {
+    display: flex; 
+    flex-direction: row;   
+    padding: 40px;
+    gap: 30px;
+}
+.coop p {
+    line-height: 1;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+.coop img {
+    border-radius: 10%;
+    border: 8px solid red;
+    width: 250px;
+    height: 230px;
+}
+.coop img:hover {
+    transform: scale(1.2);
+}
+.check {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+   padding-left: 40px;
+    line-height: 1.8;
+    font-weight: lighter;
+    font-size: 1.1em;
+    gap: 20px;
+}
+.catalog figure {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    
+}
+.catalog img {
+    border-radius: 10%;
+    border: 4px solid red;
+    cursor: pointer;
+}
+.catalog img:hover {
+    transform: scale(1.2);
+}
+.check a {
+    color: #000000;
+    text-decoration: none;
+    padding-left: 95px;
+}
+.check a:hover {
+    color: red;
+}
+.check p {
+    padding-left: 95px;
+}
+.author {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.desi {
+    background-color: red;
+    height: 380px;
+}
+.desi img {
+    float: right;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    width: 220px;
+}
+.desi img:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.desi {
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white;
+    line-height: 1.5;
+    font-size: 1.3em;
+}
+.desi a {
+    color: white;
+    cursor: pointer;
+}
+.desi p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.desi h3 {
+    font-size: 0.8em;
+    padding-bottom: 20px;
+}
+.cont a {
+    padding: 15px;
+    border-radius: 10%;
+    background-color: #ffffff;
+    color: rgb(9, 9, 212);
+    text-decoration: none;
 }
