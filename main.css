@@ -204,3 +204,103 @@ sup {
     transform: scale(1.04);
 }
 
+.new {
+    padding-left: 30px;
+    padding-top: 60px;
+    height: 600px;
+    padding-right: 30px;
+    background-color: red;
+    border-radius: 3%;
+}
+.channel img {
+    padding-left: 500px;
+    cursor: pointer;
+}
+.channel p {
+    color: white;
+}
+.channel p a {
+    color: whitesmoke;
+}
+.new h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.new p {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.lit li {
+    text-align: center;
+    padding-top: 40px;
+}
+.lit li a {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8%;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.lit p a {
+    border: 0;
+    color: white;
+    font-size: 14px;
+}
+.lit p {
+    color: white;
+    font-size: 14px;
+}
+.arts {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 23px;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+.heavy-divider {
+    margin-left: 41%;
+    margin-right: 41%;
+    border: 2px solid red;
+}
+
+.meet {
+    padding-top: 40px;
+    height: 1040px;
+    background-color: blue;
+    text-align: center;
+}
+.meet img {
+    width: 780px;
+    position: relative;
+    padding-top: 100px;  
+}
+.meet p {
+    color: white;
+    font-size: 1.7em;
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+.meet li a{
+    border-radius: 8%;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: white;
+    font-size: 1.8em;
+    color: rgb(31, 31, 199);
+    
+}
+.shady h1 a {
+    color: white;
+    font-size: 2.3em;
+}
